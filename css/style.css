@@ -15,11 +15,13 @@
     --cor2:#B80F00;    
     --cor3:#6B2620;
     --cor4:#6B0900;
+    --font-titulo: 'Titillium Web', sans-serif;
+    --font-padrao: Arial, Helvetica, Verdana, sans-serif;
 } 
 
 body {
     background-color: var(--cor0);
-    font-family: Arial, Helvetica, Verdana, sans-serif;
+    font-family: var(--font-padrao)
 }
 
 header {
@@ -30,7 +32,7 @@ header {
 }
 
 header > h1 {
-    font-family: 'Titillium Web', sans-serif;
+    font-family: var(--font-titulo);
     padding-top: 15px;
     color: #ffffff;
     font-weight: bold;
@@ -69,6 +71,7 @@ main  p {
 main h2 {
     font-family: var(--font-padrao);
     font-size: 2.5em;
+    color: white;
     padding: 20px;
     text-align: center;
     margin-bottom: 5px;
