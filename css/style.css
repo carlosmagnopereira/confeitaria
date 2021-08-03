@@ -83,8 +83,6 @@ main {
 main  p {
     text-align: justify;
     text-indent: 30px;
-    padding: 40px;
-    margin: 5px;
     line-height: 1.5em;
 }
 
