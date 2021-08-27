@@ -28,6 +28,8 @@ header {
     text-align: center;
     height: 160px;
     padding-top: 30px;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 header > h1 {
@@ -163,10 +165,15 @@ footer a:hover {
     text-decoration: underline;
 }
 
-@media (max-width: 630px) {
+@media (max-width: 520px) {
+    body {
+        font-size: 0.5rem;
+    }
+
     .menu {
         float: none;
-        margin: auto;
+        margin: 0 auto;
+        margin-top:1.4rem;
     }
 
     .menu ul {
@@ -174,5 +181,13 @@ footer a:hover {
         justify-content:space-evenly ;
         flex-flow: row  wrap;
         align-items: center;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    img {
+        width: 80%;
     }
 }
